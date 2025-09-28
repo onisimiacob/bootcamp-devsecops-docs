@@ -1,14 +1,22 @@
-# :infinity: DevSecOps Bootcamp Documentation
+# :shield: DevSecOps Bootcamp Documentation
 
-This documentation are personal [:octicons-person-fill-16: Onisim Iacob](https://www.linkedin.com/in/onisim-iacob) notes without AI usage for the Techworld-With-Nana DevSecOps Bootcamp.
+These are [:octicons-person-fill-16: Onisim Iacob](https://www.linkedin.com/in/onisim-iacob) personal notes for the [:material-web: Techworld-With-Nana DevSecOps Bootcamp](https://www.techworld-with-nana.com/devsecops-bootcamp).
+
+## **:material-robot-off: No AI usage**
+
+I wanted to ensure every single word comes from my mouth. I do however use AI at work to increase productivity, but not for courses.
+
+[:simple-bookstack: Check Documented Modules](./pages/1-security-essentials.md){ .md-button .md-button--primary }
 
 ## To ensure copyright policy
 
-- I will not use any screenshot of the course itself, nor any pdf of the documentation, but the evidence and hands-on resolution of the exercises.
+- I will not use any screenshot of the course itself, nor any PDF from [**TechWorld with Nana :fontawesome-regular-copyright:**](https://www.techworld-with-nana.com/)'s DevSecOps bootcamp.
 
 ## Objective
 
-- After completing this Bootcamp, hand this static site to validate my new knewledge, in a modern usable way.
+- After completing this Bootcamp, hand this static site to validate my new knewledge, in a modern way.
+
+- Have the evidence and hands-on resolution of the exercises.
 
 - I want to keep all this knewledge as a static site for documentation to check it any time I need.
 

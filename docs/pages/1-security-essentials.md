@@ -1,6 +1,6 @@
-# Security Essentials
+# 🛡️ Security Essentials
 
-- We need to secure:
+- In this first module I learned that we need to secure:
 
     - Customer data.
     - Company data.

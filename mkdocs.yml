@@ -5,29 +5,30 @@ site_url: https://example.com
 repo_url: https://github.com/onisimiacob/devsecops-docs
 
 nav:
-  - Modules:
-    - 1. Security Essentials: pages/1-security-essentials.md
-    - 2. Introduction to DevSecOps: pages/2-introduction-to-devsecops.md
-    - 3. Application Vulnerability Scanning: pages/3-application-vulnerability-scanning.md
-    - 4. Vulnerability Management and Remediation: pages/4-vulnerability.management-and-remediation.md
-    - 5. Vulnerability Scanning for Application Dependencies: pages/5-vulnerability-scanning-for-application-dependencies.md
-    - 6. Build a CD Pipeline: pages/6-build-a-cd-pipeline.md
-    - 7. Image Scanning - Build Secure Docker Images: pages/7-image-scanning-build-secure-docker-images.md
-    - 8. AWS Cloud Security & Access Management: pages/8-aws-cloud-security-and-access-management.md
-    - 9. Secure Continuous Deployment & DAST: pages/9-secure-continuous-deployment-and-dast.md
-    - 10. IaC and GitOps for DevSecOps: pages/10-iac-and-gitops-for-devsecops.md
-    - 11. Logging & Monitoring for Security: pages/11.logging-and-monitoring-for-security.md
-    - 12. Introduction to Kubernetes Security: pages/12-introduction-to-kubernetes-security.md
-    - 13. Kubernetes Access Management with AWS EKS: pages/13-kubernetes-access-management-with-aws-eks.md
-    - 14. Secure IaC Pipeline for EKS provisioning: pages/14-secure-iac-pipeline-for-eks-provisioning.md
-    - 15. Bootstrapping clusters with EKS Blueprints: pages/15-bootraping-clusters-with-eks-blueprints.md
-    - 16. Application Release Pipeline with ArgoCD: pages/16-application-release-pipeline-with-argocd.md
-    - 17. Policy as Code with Open Policy Agent: pages/17-policy-as-code-with-open-policy-agent.md
-    - 18. Secrets Management in Kubernetes: pages/18-secrets-management-in-kubernetes.md
-    - 19. Service Mesh with Istio: pages/19-service-mesh-with-istio.md
-    - 20. Compliance as Code: pages/20-compliance-as-code.md
-    - 21. How to Introduce DevSecOps In Organizations: pages/21-how-to-introduce-devsecops-in-organizations.md
-    - 22. DevSecOps Certification: pages/22-devsecops-certification.md
+  - 🏠︎ Home: index.md
+  - 📚 Modules:
+    - 1. 🛡️ Security Essentials: pages/1-security-essentials.md
+    - 2. 🆕 Introduction to DevSecOps: pages/2-introduction-to-devsecops.md
+    - 3. 🔎 Application Vulnerability Scanning: pages/3-application-vulnerability-scanning.md
+    - 4. 👨‍🔧 Vulnerability Management and Remediation: pages/4-vulnerability.management-and-remediation.md
+    - 5. 🔗 Vulnerability Scanning for Application Dependencies: pages/5-vulnerability-scanning-for-application-dependencies.md
+    - 6. 🏗️ Build a CD Pipeline: pages/6-build-a-cd-pipeline.md
+    - 7. 🐋 Image Scanning - Build Secure Docker Images: pages/7-image-scanning-build-secure-docker-images.md
+    - 8. 🟠 AWS Cloud Security & Access Management: pages/8-aws-cloud-security-and-access-management.md
+    - 9. 🔐 Secure Continuous Deployment & DAST: pages/9-secure-continuous-deployment-and-dast.md
+    - 10. 👨‍💻 IaC and GitOps for DevSecOps: pages/10-iac-and-gitops-for-devsecops.md
+    - 11. 📊 Logging & Monitoring for Security: pages/11.logging-and-monitoring-for-security.md
+    - 12. ☸️ Introduction to Kubernetes Security: pages/12-introduction-to-kubernetes-security.md
+    - 13. 🔓 Kubernetes Access Management with AWS EKS: pages/13-kubernetes-access-management-with-aws-eks.md
+    - 14. ✅ Secure IaC Pipeline for EKS provisioning: pages/14-secure-iac-pipeline-for-eks-provisioning.md
+    - 15. ✨ Bootstrapping clusters with EKS Blueprints: pages/15-bootraping-clusters-with-eks-blueprints.md
+    - 16. 🐙 Application Release Pipeline with ArgoCD: pages/16-application-release-pipeline-with-argocd.md
+    - 17. 📑 Policy as Code with Open Policy Agent: pages/17-policy-as-code-with-open-policy-agent.md
+    - 18. 🤫 Secrets Management in Kubernetes: pages/18-secrets-management-in-kubernetes.md
+    - 19. 🕸️ Service Mesh with Istio: pages/19-service-mesh-with-istio.md
+    - 20. 🤝 Compliance as Code: pages/20-compliance-as-code.md
+    - 21. 💼 How to Introduce DevSecOps In Organizations: pages/21-how-to-introduce-devsecops-in-organizations.md
+    - 22. 🎓 DevSecOps Certification: pages/22-devsecops-certification.md
 
 theme:
   name: material
@@ -52,10 +53,9 @@ theme:
     - search.suggest
     - content.code.copy
 
-
 theme:
   name: material
-  logo: assets/images/shield.png
+  logo: assets/images/logo.png
   favicon: assets/images/favicon.ico
   language: en
   features:

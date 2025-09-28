@@ -1,0 +1,132 @@
+site_name: DevSecOps Bootcamp Docs
+site_description: A documentation site built with MkDocs for notes and exercises for DevSecOps Bootcamp
+site_author: Onisim Iacob
+site_url: https://example.com
+repo_url: https://github.com/onisimiacob/devsecops-docs
+
+nav:
+  - Modules:
+    - 1. Security Essentials: pages/1-security-essentials.md
+    - 2. Introduction to DevSecOps: pages/2-introduction-to-devsecops.md
+    - 3. Application Vulnerability Scanning: pages/3-application-vulnerability-scanning.md
+    - 4. Vulnerability Management and Remediation: pages/4-vulnerability.management-and-remediation.md
+    - 5. Vulnerability Scanning for Application Dependencies: pages/5-vulnerability-scanning-for-application-dependencies.md
+    - 6. Build a CD Pipeline: pages/6-build-a-cd-pipeline.md
+    - 7. Image Scanning - Build Secure Docker Images: pages/7-image-scanning-build-secure-docker-images.md
+    - 8. AWS Cloud Security & Access Management: pages/8-aws-cloud-security-and-access-management.md
+    - 9. Secure Continuous Deployment & DAST: pages/9-secure-continuous-deployment-and-dast.md
+    - 10. IaC and GitOps for DevSecOps: pages/10-iac-and-gitops-for-devsecops.md
+    - 11. Logging & Monitoring for Security: pages/11.logging-and-monitoring-for-security.md
+    - 12. Introduction to Kubernetes Security: pages/12-introduction-to-kubernetes-security.md
+    - 13. Kubernetes Access Management with AWS EKS: pages/13-kubernetes-access-management-with-aws-eks.md
+    - 14. Secure IaC Pipeline for EKS provisioning: pages/14-secure-iac-pipeline-for-eks-provisioning.md
+    - 15. Bootstrapping clusters with EKS Blueprints: pages/15-bootraping-clusters-with-eks-blueprints.md
+    - 16. Application Release Pipeline with ArgoCD: pages/16-application-release-pipeline-with-argocd.md
+    - 17. Policy as Code with Open Policy Agent: pages/17-policy-as-code-with-open-policy-agent.md
+    - 18. Secrets Management in Kubernetes: pages/18-secrets-management-in-kubernetes.md
+    - 19. Service Mesh with Istio: pages/19-service-mesh-with-istio.md
+    - 20. Compliance as Code: pages/20-compliance-as-code.md
+    - 21. How to Introduce DevSecOps In Organizations: pages/21-how-to-introduce-devsecops-in-organizations.md
+    - 22. DevSecOps Certification: pages/22-devsecops-certification.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+
+theme:
+  name: material
+  logo: assets/images/shield.png
+  favicon: assets/images/favicon.ico
+  language: en
+  features:
+    - header.autohide
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+    annotation: material/plus-circle
+  palette: 
+    # Night Mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: indigo
+      #accent: deep purple
+
+    # Day Mode
+    - scheme: default
+      toggle: 
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: purple
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - admonition
+  - pymdownx.blocks.caption
+
+plugins:
+   - search
+   - tags
+   - glightbox
+   - mermaid2
+   - drawio:
+      toolbar: false  # control if hovering on a diagram shows a toolbar for zooming or not (default: true)
+      tooltips: true # control if tooltips will be shown (default: true)
+      edit: false     # control if edit button will be shown in the lightbox view (default: true)
+      border: 0     # increase or decrease the border / margin around your diagrams (default: 0)
+      darkmode: true # support darkmode. allows for automatic switching between dark and lightmode based on the theme toggle. (default: false)

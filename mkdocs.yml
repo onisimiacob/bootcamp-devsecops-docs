@@ -1,8 +1,8 @@
-site_name: DevSecOps Bootcamp Docs
+site_name: Onisim Iacob - DevSecOps Bootcamp Docs
 site_description: A documentation site built with MkDocs for notes and exercises for DevSecOps Bootcamp
 site_author: Onisim Iacob
-site_url: https://example.com
-repo_url: https://github.com/onisimiacob/devsecops-docs
+site_url: https://onisimiacob.github.io/bootcamp-devsecops-docs/
+repo_url: https://github.com/onisimiacob/bootcamp-devsecops-docs
 
 nav:
   - 🏠︎ Home: index.md

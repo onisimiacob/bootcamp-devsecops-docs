@@ -1,18 +1,18 @@
 # :shield: DevSecOps Bootcamp Documentation
 
-These are [:octicons-person-fill-16: Onisim Iacob](https://www.linkedin.com/in/onisim-iacob) personal notes for the [:material-web: Techworld-With-Nana DevSecOps Bootcamp](https://www.techworld-with-nana.com/devsecops-bootcamp).
+These are [:octicons-person-fill-16: Onisim Iacob](https://www.linkedin.com/in/onisim-iacob) personal notes for the [:material-web: Techworld-With-Nana DevSecOps Bootcamp](https://www.techworld-with-nana.com/devsecops-bootcamp) written in with [:simple-materialformkdocs: Mkdocs-Materials](https://squidfunk.github.io/mkdocs-material/) and deployed on [:simple-github: Github Pages](https://squidfunk.github.io/mkdocs-material/publishing-your-site/) as a free static site.
 
 ## **:material-robot-off: No AI usage**
 
-I wanted to ensure every single word comes from my mouth. I do however use AI at work to increase productivity, but not for courses.
+### *I wanted to ensure every single word comes from my mouth. I do however use AI at work to increase my productivity, but not for this kind of courses.*
 
 [:simple-bookstack: Check Documented Modules](./pages/1-security-essentials.md){ .md-button .md-button--primary }
 
-## To ensure copyright policy
+## :ballot_box_with_check: To ensure copyright policy
 
-- I will not use any screenshot of the course itself, nor any PDF from [**TechWorld with Nana :fontawesome-regular-copyright:**](https://www.techworld-with-nana.com/)'s DevSecOps bootcamp.
+- I will not use any screenshot of the course itself, nor any PDF from [**TechWorld with Nana's DevSecOps Bootcamp :fontawesome-regular-copyright:**](https://www.techworld-with-nana.com/).
 
-## Objective
+## :checkered_flag: Objective
 
 - After completing this Bootcamp, hand this static site to validate my new knewledge, in a modern way.
 

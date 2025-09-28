@@ -1,3 +1,10 @@
+---
+tags:
+  - DevSecOps
+  - Skills
+  - Comparison
+---
+
 # 🆕 Introduction to DevSecOps
 
 Best security practices are automated and go straight inside the DevOps workflow.

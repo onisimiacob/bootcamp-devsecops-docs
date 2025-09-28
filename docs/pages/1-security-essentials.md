@@ -1,3 +1,11 @@
+---
+tags:
+  - Attacks
+  - Essentials
+  - OWASP
+  - Top 10
+---
+
 # 🛡️ Security Essentials
 
 - In this first module I learned that we need to secure:

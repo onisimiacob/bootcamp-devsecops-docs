@@ -1,4 +1,4 @@
-site_name: DevSecOps Bootcamp Docs - Onisim Iacob
+site_name: Onisim Iacob - DevSecOps Bootcamp Docs
 site_description: A documentation site built with MkDocs for notes and exercises for DevSecOps Bootcamp
 site_author: Onisim Iacob
 site_url: https://onisimiacob.github.io/bootcamp-devsecops-docs/
@@ -60,7 +60,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.annotate
-    - navigation.tabs
+    #- navigation.tabs
     - navigation.sections
     #- navigation.top
     - search.highlight
@@ -118,4 +118,4 @@ plugins:
       tooltips: true # control if tooltips will be shown (default: true)
       edit: false     # control if edit button will be shown in the lightbox view (default: true)
       border: 0     # increase or decrease the border / margin around your diagrams (default: 0)
-      darkmode: true # support darkmode. allows for automatic switching between dark and lightmode based on the theme toggle. (default: false)
+      darkmode: true # support darkmode. allows for auihelmtomatic switching between dark and lightmode based on the theme toggle. (default: false)
